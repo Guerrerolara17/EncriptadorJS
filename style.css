@@ -1,0 +1,195 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(208, 240, 238);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.main {
+  width: 80vw;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+}
+
+.titulo {
+
+  position: absolute;
+  width: 535px;
+  height: 61px;
+  left: 167px;
+  top: 37px;
+  
+  font-family: PT Serif Caption;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 48px;
+  line-height: 64px;
+  
+  color: #000000;
+  
+  mix-blend-mode: normal;
+
+
+}
+
+.box {
+
+}
+
+.btn {
+  display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 24px;
+
+position: absolute;
+width: 328px;
+height: 67px;
+left: 155px;
+top: 660px;
+
+
+
+background: #146edd;
+border-radius: 24px;
+
+}
+.btn-encrip{
+  display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 24px;
+
+position: absolute;
+width: 328px;
+height: 67px;
+left: 143px;
+top: 353px;
+
+background: #146edd;
+border-radius: 24px;
+}
+
+.btn-desencrip{
+  display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 24px;
+
+position: absolute;
+width: 328px;
+height: 67px;
+left: 497px;
+top: 353px;
+
+/* Light gray */
+
+background: #D8DFE8;
+/* Dark blue/dark-blue-300 */
+
+border: 1px solid #0A3871;
+box-sizing: border-box;
+border-radius: 24px;
+}
+
+.text-input {
+  position: absolute;
+  width: 682.56px;
+  height: 177px;
+  left: 142px;
+  top: 151px;
+  
+  background: #E1E1E1;
+  border-radius: 44px;
+}
+.text-input-des {
+  position: absolute;
+  width: 682.56px;
+  height: 177px;
+  left: 142px;
+  top: 458px;
+  
+  background: #E1E1E1;
+  border-radius: 44px;
+}
+.ytitulo{
+  margin: 10px;
+  align-content: center;
+  
+  width:60vw;
+  border: 10px;
+  border-color: black;
+  background: chartreuse;
+}
+
+.input-texto-letras{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  
+  position: absolute;
+  width: 318px;
+  height: 18px;
+  left: 179px;
+  top: 128px;
+ 
+}
+
+.h3 {
+  position: absolute;
+width: 339px;
+height: 39px;
+left: 179px;
+top: 425px;
+
+font-family: Inter;
+font-style: italic;
+font-weight: 600;
+font-size: 24px;
+line-height: 150%;
+/* or 36px */
+color: #000000;
+}
+
+.azul{
+position: absolute;
+width: 345px;
+height: 1024px;
+left: 1095px;
+top: 0px;
+
+background: #2174D2;
+}
+
+
+img {
+  max-width: 350px;
+  background-color: #146edd;
+  margin: auto;
+  position: fixed;
+  right: 0px;
+  top: 0px;
+  bottom: 0px;
+}
+
+footer{
+  position: absolute;
+  width: 293px;
+  height: 22px;
+  left: 544px;
+  top: 956px;
+  
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 14px;
+  
+  color: #000000;
+}
